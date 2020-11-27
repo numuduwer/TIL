@@ -170,13 +170,7 @@ Linkedlist의 구조는 3가지로 이루어져 있다.
 
 주의할 점 
 - 뒤에 붙일 리스트(L)이 빈거라면?? 
-~~~python
-    def count(self,L):
-        self.tail.next = L.head
-        if L.tail:
-            self.tail = L.tail
-        self.nodeCount += L.nodeCount
-~~~
+
 
 
 생각할 점 
@@ -184,6 +178,14 @@ Linkedlist의 구조는 3가지로 이루어져 있다.
 - 삭제하려는 노드가 맨 앞일 때
     - prev 없음, head조정 필요
 - 삭제하려는 노드가 맨 뒤일 떄
+
+~~~python
+    def count(self,L):
+        self.tail.next = L.head
+        if L.tail:
+            self.tail = L.tail
+        self.nodeCount += L.nodeCount
+~~~
 ### 장점 
 - 삽입과 삭제를 유연하게 할 수있다. 
 - 리스트 간 병합하는 문제도 쉽게 할 수 있다. 
