@@ -13,6 +13,7 @@ git과 markdown문법에 익숙해지자.
 ## 분류 
 
 ### 자료구조 & 알고리즘 
+[1.LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_01.md)
 
 
 
