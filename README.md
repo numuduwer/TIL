@@ -1,6 +1,6 @@
 # Today I Learned 
-git과 markdown문법에 익숙해지자.
-오늘 배운 내용을 기록한다. 
+git과 markdown문법에 익숙해지자.   
+오늘 배운 내용을 기록한다.    
 꾸준히 실력을 키우는 습관을 들이자.
 
 
