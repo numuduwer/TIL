@@ -1,7 +1,7 @@
 # Today I Learned 
 git과 markdown문법에 익숙해지자.   
 오늘 배운 내용을 기록한다.    
-꾸준함으로 자신있는 개발자가 되자. 
+
 
 
 ## 작성규칙
@@ -14,6 +14,9 @@ git과 markdown문법에 익숙해지자.
 
 ### 자료구조 & 알고리즘 
 -  [1. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_01.md)
+-  [2. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_02.md)
+-  [3. LinkedList(doubly)](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_03.md)
+
 
 
 

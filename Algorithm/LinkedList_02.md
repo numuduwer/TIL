@@ -13,7 +13,6 @@
 - insertAfter(prev, newNode)
 - popAfter(prev)
 
-어떤 포지션을 순회하고 실행하는것이 아니라 어떤 노드를 주고 진행하라. 
 
 2. 맨 앞에 dummy node를 추가한 형태로 두자. 
 
@@ -32,8 +31,9 @@
 ~~~
 ### 연산 (6가지 연산)
 (1.길이얻기, 2.순회, 3.특정원소 참조, 4.삽입, 5.삭제, 6.리스트 합치기 )
-
-- 순회 
+### 1. 길이얻기
+안바뀜. 
+### 2. 순회 
     ~~~python
     def traverse(self):
         result = []
@@ -44,8 +44,9 @@
             result.append(curr.data)
         return result
     ~~~
+    
 
-- 특정 원소 참조(k번 째)
+### 3. 특정 원소 참조(k번 째)
     ~~~python
      def getAt(self, pos):
             if pos<0 or pos > self.nodeCount:
@@ -60,7 +61,7 @@
     ~~~
 
 
-- 삽입   
+### 4. 삽입   
 insertAt에서 prev를 찾는 것으로 고치고 
 prev값을 통해 삽입하는 insertAfter()를 리턴 시키게 변경
     
@@ -90,7 +91,7 @@ prev값을 통해 삽입하는 insertAfter()를 리턴 시키게 변경
                 prev = self.getAt(pos-1)
             return self.insertAfter(prev,newNode)
     ~~~
-- 삭제   
+### 5. 삭제   
 L.popAfter()만들 떄 고려할 점 
 1. prev가 마지막 node일 때 (prev.next == None)
     - 삭제할 node 없음 
@@ -133,7 +134,7 @@ L.popAfter()만들 떄 고려할 점
 
 ~~~
 
-- 두 리스트의 연결 
+### 6. 두 리스트의 연결 
 
 ~~~python
     def concat(self,L):
