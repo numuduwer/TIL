@@ -21,7 +21,9 @@ git과 markdown문법에 익숙해지자.
 
 
 ### Java 
+- [자바 테이터 타입, 변수, 배열](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day2].md)
 - [연산자](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day3].md)
+
 ### Spring
 
 
