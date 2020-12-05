@@ -33,6 +33,7 @@ git과 markdown문법에 익숙해지자.
 ## [스프링부트와 AWS로 혼자 구현하는 웹서비스]
 ### 막힌 부분
 - [맥에서 인텔리제이 자동완성 불가 해결방법.](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/solution/01.md)
+- [JAVA_HOME is set to an invalid directory:](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/solution/02.md)
 
 ### Chapter1
 1. [인텔리제이로 스프링부트 시작하기](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/springboot_01.md)
