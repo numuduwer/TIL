@@ -37,5 +37,3 @@ git과 markdown문법에 익숙해지자.
 ### Chapter1
 1. [인텔리제이로 스프링부트 시작하기](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/springboot_01.md)
 2. [인텔리제이에서 깃, 깃허브 사용하기](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/springboot_02.md)
-
-
