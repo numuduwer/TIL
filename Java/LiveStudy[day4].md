@@ -9,7 +9,7 @@
 
 # 제어문 
 
-- 코드의 실행 흐름을 제어하는 구문. 
+- 코드의 실행 흐름을 제어하는 구문. 
 - 주어진 조건에 따라 명령을 수행하도록 하는 실행문이다. 3종류가 있다. 
 - 1. 선택문 (switch / case)
 - 2. 조건문 (if /else)
@@ -89,12 +89,12 @@
 ~~~java
 String [] number = {"one","two","tree"};
 
-# 기존 for문 예시 
+//기존 for문 예시 
 for (int i =0; i<number.length; i++){
     System.out.println(number[i]);
 }
 
-# for each 문
+//for each 문
 for (String number: numbers){
     System.out.println(number);
 }
