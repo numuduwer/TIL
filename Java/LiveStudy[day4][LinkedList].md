@@ -6,25 +6,19 @@ LinkedList를 구현하세요
 - ListNode remove(ListNode head, int positionToRenove)를 구현하세요 
 - bollean contains(ListNode head, ListNode nodeTocheck)를 구현하세요
 
-# 자료주조 (Data Structure)
-
-|   <strong>Colection</strong>       |         <strong> Map</strong>               |
-|------------------------------------|---------------------------------------------|
-| Set         | List      | Queue    | SortMap | HashTable | LinkedHashMap |HashMap|
-|HashSet      | ArrayList |PointQueue| TreeMap |           |               |       |
-|LinkedHashSet| Vector    |          |         |           |               |       |
-|  TreeSet    | LinkedList|          |         |           |               |       |
 
 # Linked List
 - 앞에 있는 노드들이 뒤에았는 노드를 가리키고 있는 자료구조를 연결리스트라 한다. 
-- 노드는 2가지로 구성되어있다. 
+- <strong>노드는 2가지로 구성되어있다.</strong> 
     - Data
     - 다음 노드를 가리키는 next
-- LinkedList는 3가지 구조로 이루어져있다. 
+
+- <strong>LinkedList는 3가지 구조로 이루어져있다.</strong> 
     - 첫 노드를 가리키는 head
     - 마지막 노드를 가리키는 tail
     - 노드의 수를 가리키는 nodeCount 
-- LinkedList의 연산은 6가지가 있다.
+
+- <strong>LinkedList의 연산은 6가지가 있다.</strong>
     1. 조회 
     2. 모든 리스트 순회
     3. 길이 얻어내기
@@ -49,13 +43,14 @@ LinkedList를 구현하세요
 
     }
 ~~~
-# 연산 
-##  노드삽입 (add)
+## 6가지 연산
+###  <strong>삽입 </strong>
 1. addFirst
 2. addLast
 3. addd 
 
-###  앞에서 추가하는 addFirst
+###  1. addFirst 
+- 앞에서 추가하기
 ~~~java
     public void addFirst(Object input){
         // 노드를 생성합니다.
@@ -71,7 +66,8 @@ LinkedList를 구현하세요
     }
 ~~~
 
-### 뒤로 추가하는 addLast
+### 2. addLast
+- 값을 뒤로 추가하기
 ~~~java
     public void addLast(Object input){
         // 노드를 생성합니다.
@@ -90,7 +86,8 @@ LinkedList를 구현하세요
     }
 ~~~
 
-### 중간에 추가하는 add
+### 3. add
+- 값을 중간에 추가하기 
 
 ~~~java
    public void add(int k, Object input){
@@ -117,8 +114,10 @@ LinkedList를 구현하세요
 ~~~
 
 
-## 조회 
-
+### <strong> 조회 </strong>
+1. 특정 노드를 조회 
+2. 전체 조회 
+### 1. 특정 노드 조회 
 ~~~java
 Node node(int index) {
     Node x = head;
@@ -127,7 +126,7 @@ Node node(int index) {
     return x;
 }
 ~~~
-
+### 2. 전체 조회 
 ~~~java
     public String toString() {
         // 노드가 없다면 []를 리턴합니다.
