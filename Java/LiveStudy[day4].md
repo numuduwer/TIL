@@ -4,6 +4,15 @@
 1. 선택문 
 2. 반복문 
 
+## 과제 
+0. JUnit 5 학습하세요.
+1. live-study 대시 보드를 만드는 코드를 작성하세요. 
+2. LinkedList를 구현하세요.
+3. Stack을 구현하세요.
+4. 앞서 만든 ListNode를 사용해서 Stack을 구현하세요.
+5. Queue를 구현하세요. 
+
+
 
 
 
@@ -100,3 +109,12 @@ for (String number: numbers){
 }
 ~~~
 
+
+# 과제 
+## 0. JUnit 5 학습하세요.
+## 1. live-study 대시 보드를 만드는 코드를 작성하세요. 
+## 2. LinkedList를 구현하세요.
+[LinkedList 공부중](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4][LinkedList].md)
+## 3. Stack을 구현하세요.
+## 4. 앞서 만든 ListNode를 사용해서 Stack을 구현하세요.
+## 5. Queue를 구현하세요. 

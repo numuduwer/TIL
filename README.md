@@ -12,7 +12,7 @@ git과 markdown문법에 익숙해지자.
 
 ## 분류 
 
-### 자료구조 & 알고리즘 
+### 자료구조 & 알고리즘 (python)
 -  [1. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_01.md)
 -  [2. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_02.md)
 -  [3. LinkedList(doubly)](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_03.md)
@@ -24,7 +24,11 @@ git과 markdown문법에 익숙해지자.
 - [JVM은 무엇이며, 자바코드는 어떻게 실행하는 것인가?](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day1].md)
 - [자바 테이터 타입, 변수, 배열](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day2].md)
 - [연산자](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day3].md)
-- [제어문](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4].md)
+- [제어문](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4].md) 
+- [LinkedList_Java](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4][LinkedList].md) 
+
+<Strong>[Collection]</strong>
+
 
 ### Spring
 
