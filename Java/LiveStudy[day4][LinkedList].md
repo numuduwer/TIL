@@ -49,7 +49,7 @@ LinkedList를 구현하세요
 3. 중간 삽입
 
  
-### 1. 앞 삽입  addFirst 
+-    1. 앞 삽입  addFirst 
 
     ~~~java
     public void addFirst(Object input){
@@ -65,7 +65,7 @@ LinkedList를 구현하세요
         }
     }
     ~~~
-### 2. 뒷 삽입  addLast 
+-   2. 뒷 삽입  addLast 
     ~~~java
         // addLast : 뒤로 값을 추가하기
         public void addLast(Object input){
@@ -85,7 +85,7 @@ LinkedList를 구현하세요
         }
     ~~~
 
-### 3. 중간 삽입  add
+-    3. 중간 삽입  add
     ~~~java
         //  add : 중간에 값을 추가하기 
         public void add(int k, Object input){
@@ -116,8 +116,7 @@ LinkedList를 구현하세요
 1. 특정 노드를 조회 (삽입 삭제에 사용)
 2. 전체 조회 
 3. 특정 노드의 data 조회
-
-### 1. 특정 노드를 조회 
+-    1. 특정 노드를 조회 
     ~~~java
     // 1. 특정 노드 조회 
     Node node(int index) {
@@ -127,7 +126,7 @@ LinkedList를 구현하세요
         return x;
     }
     ~~~
-### 2. 전체 조회 
+-   2. 전체 조회 
     ~~~java
         //2. 전체 조회 
         public String toString() {
@@ -150,7 +149,7 @@ LinkedList를 구현하세요
         }    
     ~~~
 
-### 3. 특정 노드의 data 조회
+-   3. 특정 노드의 data 조회
 ~~~java
      public Object get(int k) {
     	Node temp = node(k);
@@ -165,7 +164,7 @@ LinkedList를 구현하세요
 
 
 
-### 1. 앞 삭제
+-   1. 앞 삭제
     ~~~java
     public Object removeFirst() {
     	Node temp = head;
@@ -177,7 +176,7 @@ LinkedList를 구현하세요
     }
     ~~~
 
-### 2. 선택 삭제 
+-    2. 선택 삭제 
     ~~~java
     public Object remove(int k) {
     	if(k ==0) {
