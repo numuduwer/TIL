@@ -18,16 +18,15 @@ LinkedList를 구현하세요
     - 마지막 노드를 가리키는 tail
     - 노드의 수를 가리키는 nodeCount 
 
-- <strong>LinkedList의 연산은 6가지가 있다.</strong>
-    1. 조회 
-    2. 모든 리스트 순회
-    3. 길이 얻어내기
-    4. 노드 삽입
-    5. 노드 삭제 
-    6. 리스트 합치기 
+- <strong>LinkedList의 연산들</strong>
+1. 삽입 (add)
+2. 조회 (get)
+3. 삭제 (remove)
+4. 탐색 (index 구하기)
+  
 
 
-## Node와 LinkedList
+# Node와 LinkedList 구조
 ~~~java
     class CodeTest{
         public static class LinkedList{
@@ -43,17 +42,16 @@ LinkedList를 구현하세요
 
     }
 ~~~
-## 6가지 연산
-###  <strong>삽입 </strong>
-1. addFirst
-2. addLast
-3. add 
+#  연산
+##  <strong>삽입 </strong>
+1. 앞 삽입
+2. 뒷 삽입
+3. 중간 삽입
 
  
-- addFirst 
+### 1. 앞 삽입  addFirst 
 
     ~~~java
-    // addFirst : 앞쪽으로 값을 추가하기
     public void addFirst(Object input){
         // 노드를 생성합니다.
         Node newNode = new Node(input);
@@ -67,8 +65,7 @@ LinkedList를 구현하세요
         }
     }
     ~~~
-
--  addLast
+### 2. 뒷 삽입  addLast 
     ~~~java
         // addLast : 뒤로 값을 추가하기
         public void addLast(Object input){
@@ -88,7 +85,7 @@ LinkedList를 구현하세요
         }
     ~~~
 
-- add
+### 3. 중간 삽입  add
     ~~~java
         //  add : 중간에 값을 추가하기 
         public void add(int k, Object input){
@@ -115,11 +112,12 @@ LinkedList를 구현하세요
     ~~~
 
 
-### <strong> 조회 </strong>
-1. 특정 노드를 조회 
+## <strong> 조회 </strong>
+1. 특정 노드를 조회 (삽입 삭제에 사용)
 2. 전체 조회 
+3. 특정 노드의 data 조회
 
-- 특정 노드를 조회 
+### 1. 특정 노드를 조회 
     ~~~java
     // 1. 특정 노드 조회 
     Node node(int index) {
@@ -129,7 +127,7 @@ LinkedList를 구현하세요
         return x;
     }
     ~~~
-- 전체 조회 
+### 2. 전체 조회 
     ~~~java
         //2. 전체 조회 
         public String toString() {
@@ -151,3 +149,81 @@ LinkedList를 구현하세요
             return str+"]";
         }    
     ~~~
+
+### 3. 특정 노드의 data 조회
+~~~java
+     public Object get(int k) {
+    	Node temp = node(k);
+    	
+    	return temp.data; 
+    }
+~~~
+
+##  <strong>삭제 </strong>
+1. 맨 앞 삭제
+2. 선택 삭제
+
+
+
+### 1. 앞 삭제
+    ~~~java
+    public Object removeFirst() {
+    	Node temp = head;
+    	head = head.next;
+    	Object returnData = temp.data;
+    	temp = null;
+    	size--;
+    	return returnData;
+    }
+    ~~~
+
+### 2. 선택 삭제 
+    ~~~java
+    public Object remove(int k) {
+    	if(k ==0) {
+    		return removeFirst();
+    	}
+    	Node temp = node(k-1);
+    	Node todoDeleted = temp.next;
+    	
+    	temp.next = temp.next.next;
+    	Object returnData = todoDeleted.data;
+    	
+    	// 만약 맨뒤라면? 
+    	if(todoDeleted == tail) {
+    		tail = temp;
+    	}
+    	
+    	// LinkedList에서 삭제처리하고 남은데이터지우기 
+    	todoDeleted = null;
+    	size--;
+    	
+    	return returnData;
+    }
+    ~~~
+
+##  <strong>길이 얻어내기  </strong>
+
+~~~java
+public int size() {
+    return size;
+}
+~~~
+
+##  <strong>값의 index 얻어내기  </strong>
+~~~java
+    public int indexOf(Object data) {
+    	Node temp = head;
+    	int index = 0;
+    	while(temp.data != data) {
+    		temp = temp.next;
+    		index ++;
+    		if (temp == null) {
+    			return -1;
+    		}
+    	}
+  
+    	return index;
+    }
+
+~~~
