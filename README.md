@@ -26,6 +26,7 @@ git과 markdown문법에 익숙해지자.
 - [연산자](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day3].md)
 - [제어문](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4].md) 
 - [LinkedList_Java](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4][LinkedList].md) 
+- [class](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day5].md) 
 
 <Strong>[Collection]</strong>
 
