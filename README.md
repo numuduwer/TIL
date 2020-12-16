@@ -1,6 +1,9 @@
 # Today I Learned 
-git과 markdown문법에 익숙해지자.   
-오늘 배운 내용을 기록한다.    
+
+
+## 목적
+- 매일 개발하는 습관을 만들자. 
+- 필요할 때 찾아보는 목적으로 글을 쓰자. 
 
 
 
@@ -26,9 +29,8 @@ git과 markdown문법에 익숙해지자.
 - [연산자](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day3].md)
 - [제어문](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4].md) 
 - [LinkedList_Java](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4][LinkedList].md) 
-- [class](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day5].md) 
+- [클래스](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day5].md) 
 
-<Strong>[Collection]</strong>
 
 
 ### Spring
