@@ -26,10 +26,7 @@
 ### Java 
 
 
-<Strong>Tips</strong>
 - [Mac에서 java 버전관리](version.md)
-
-<Strong>Study</strong>
 - [JVM은 무엇이며, 자바코드는 어떻게 실행하는 것인가?](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day1].md)
 - [자바 테이터 타입, 변수, 배열](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day2].md)
 - [연산자](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day3].md)
