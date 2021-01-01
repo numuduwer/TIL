@@ -13,16 +13,17 @@
 
 ### 사용하기
 ~~~java
-    // new사용 인스턴스로 만들기  
     int[] intArray;
     intArray = new int[20];
-    // 한번에 만들면
+    
+    // 혹은
     int[] intArray = new int[20];
+    
     // 값까지 넣는 경우 { } 안에 값을 명시해주기 
     int[] intArray = new int[]{1,2,3,4,5};
 
 
-    // 그냥 만들어도 됨 
+    // new없이 만드는 경우도 있다.  
     int[]arr = {3,4,5,6,7};
 
 
@@ -357,6 +358,8 @@ public class VectorEx01{
 ~~~
 ### 사용방법
 - 위와 동일해서 생략하겠습니다. 
-
+### 참고 
+- [다른 분의 블로그](https://m.blog.naver.com/PostView.nhn?blogId=heartflow89&logNo=220991199432&proxyReferer=https:%2F%2Fwww.google.co.kr%2F)
+- [점프 투 자바](https://wikidocs.net/207)
 ### LinkedList 직접 구현하기 
 [(Live Study)LinkedList 구현하기](../Java/LiveStudy[day4][LinkedList].md)
