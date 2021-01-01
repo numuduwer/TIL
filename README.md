@@ -1,6 +1,7 @@
 # Today I Learned 
 
 
+## 목적
 - 매일 개발하는 습관을 만들자. 
 - 필요할 때 찾아보는 목적으로 글을 쓰자. 
 
@@ -14,15 +15,10 @@
 
 -----
 
-<<<<<<< HEAD
 ### 자료구조 & 알고리즘 
 
 - Linked List 
--  [1. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_01.md)
-=======
-### 자료구조 & 알고리즘 (python)
 -  [1. LinkedList](/Algorithm/LinkedList_01.md)
->>>>>>> d53e6feb8acd1c649775f227a2eca41e23ee8db8
 -  [2. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_02.md)
 -  [3. LinkedList(doubly)](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_03.md)
 

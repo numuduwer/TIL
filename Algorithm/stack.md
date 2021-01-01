@@ -15,8 +15,12 @@
 - peek() :  맨 마지막 데이터를 보는 것
 - isEmpty() : 데이터가 있는지 없는지 보는것 
 
+## 코드 2 (배열을 사용)
+~~~java 
+    
+~~~
 
-## 코드 
+## 코드 1 (Linked List)
 
 ~~~java 
 import java.util.EmptyStackException;
