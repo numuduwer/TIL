@@ -22,9 +22,7 @@
 -  [2. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_02.md)
 -  [3. LinkedList(doubly)](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_03.md)
 
-
-
-
+-  [4. array 와 List 컬렉션 (Java)](https://github.com/numuduwer/TIL/tree/main/Algorithm/Array.md)
 ### Java 
 
 
