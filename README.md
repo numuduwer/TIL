@@ -12,14 +12,7 @@
 - 더 정리가 필요한 내용은 Notion에 기록한다. 
 
 
------
 
-<<<<<<< HEAD
-### 자료구조 & 알고리즘 
-
-- Linked List 
--  [1. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_01.md)
-=======
 ### 자료구조 & 알고리즘 (python)
 -  [1. LinkedList](/Algorithm/LinkedList_01.md)
 >>>>>>> d53e6feb8acd1c649775f227a2eca41e23ee8db8
