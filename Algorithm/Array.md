@@ -351,10 +351,12 @@ public class VectorEx01{
 
 
 
-### 셍성방법 
+### 생성방법 
 ~~~java
     List<E> list = new LinkedList<E>();
 ~~~
+### 사용방법
+- 위와 동일해서 생략하겠습니다. 
 
-#### LinkedList 만들어서사용하기 
-[(Live Study)LinkedList 구현하기](./Java/LiveStudy[day4][LinkedList].md)
+### LinkedList 직접 구현하기 
+[(Live Study)LinkedList 구현하기](../Java/LiveStudy[day4][LinkedList].md)
