@@ -15,7 +15,6 @@
 
 ### 자료구조 & 알고리즘 (python)
 -  [1. LinkedList](/Algorithm/LinkedList_01.md)
->>>>>>> d53e6feb8acd1c649775f227a2eca41e23ee8db8
 -  [2. LinkedList](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_02.md)
 -  [3. LinkedList(doubly)](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_03.md)
 
