@@ -45,7 +45,7 @@
   - [맥에서 인텔리제이 자동완성 불가 해결방법.](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/solution/01.md)
   - [JAVA_HOME is set to an invalid directory:](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/solution/02.md)
   - [gradle 버전 변경](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/solution/03.md)
-
+  - [Cannot deserialize instance of `java.lang.Long` out of START_OBJECT token](https://github.com/numuduwer/TIL/tree/main/Books/springboot_aws_webservice/solution/04.md)
 
 
 - Chapter1
