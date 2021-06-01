@@ -14,7 +14,8 @@
 
 
 
-
+### 내가 도움을 받았던 글들
+[개발 관련 도움받은 글들](Tips.md)
 ### 자료구조 & 알고리즘 (python)
 
 -  [1. LinkedList](/Algorithm/LinkedList_01.md)
@@ -32,10 +33,6 @@
 - [제어문](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4].md) 
 - [LinkedList_Java](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day4][LinkedList].md) 
 - [클래스](https://github.com/numuduwer/TIL/tree/main/Java/LiveStudy[day5].md) 
-
-
-
-### Spring
 
 
 ### Books 
