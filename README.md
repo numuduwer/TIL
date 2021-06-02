@@ -23,6 +23,11 @@
 -  [3. LinkedList(doubly)](https://github.com/numuduwer/TIL/tree/main/Algorithm/LinkedList_03.md)
 
 -  [4. array 와 List 컬렉션 (Java)](https://github.com/numuduwer/TIL/tree/main/Algorithm/Array.md)
+#### 배열 
+-  [배열1.중복확인](/Algorithm/arr1.md)
+-  [배열2.문자열 뒤집기](/Algorithm/arr2.md)
+-  [배열3.두수의 합](/Algorithm/arr3.md)
+-  [배열4.O(n)정렬](/Algorithm/arr4.md)
 ### Java 
 
 
