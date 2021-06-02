@@ -5,18 +5,12 @@
 - 배열을 for 문에서 잘 사용하는지
 - StringBuilder API를 알고 있는지?
 
-### 문제. 주어진 문자열을 거꾸로 뒤집은 문자열을 만드는 함수를 작성하라.
+### 문제 
+#### 주어진 문자열을 거꾸로 뒤집은 문자열을 만드는 함수를 작성하라.
 
-예) hello => olleh
-
-예) happy new year => reay wen yppah
+예) hello => olleh /  happy new year => reay wen yppah
 
 ### 풀이
-
-1. for문 사용한 거꾸로 순회  
-2. for문에서 공간 복잡도를 더 줄이는 방법
-3. Stack을 사용한 방법
-4. String Builder를 사용한 방법
 
 1. **for문 사용한 거꾸로 순회**
 
