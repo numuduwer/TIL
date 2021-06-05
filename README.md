@@ -33,6 +33,11 @@
 -  [List2.끝에서 n번째 노드 찾기](/Algorithm/list2.md)
 -  [List3.중복 노드 지우기](/Algorithm/list3.md)
 -  [List4.원형 LinkedList인지 확인하기](/Algorithm/list4.md)
+##### 스택
+-  [Stack1 스택 뒤집기](/Algorithm/stack1.md)
+-  [Stack2.괄호 짝 맞추기](/Algorithm/stack2.md)
+-  [Stack3.span 찾기](/Algorithm/stack3.md)
+
 
 ### Java 
 
