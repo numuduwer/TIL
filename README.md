@@ -38,6 +38,9 @@
 -  [Stack2.괄호 짝 맞추기](/Algorithm/stack2.md)
 -  [Stack3.span 찾기](/Algorithm/stack3.md)
 
+##### 큐
+-  [Queue1 큐 뒤집기](/Algorithm/queue1.md)
+
 
 ### Java 
 
