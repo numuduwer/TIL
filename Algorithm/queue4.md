@@ -5,6 +5,7 @@
 - 큐 스택을 잘 알고 있는가?
 
 ### 문제
+#### 큐를 사용해서 스택을 만들어라 
 
 ```java
 public class QueueStack {
