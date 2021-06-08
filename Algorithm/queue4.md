@@ -7,16 +7,22 @@
 ### 문제
 
 ```java
-// 주어진 배열 prices에 대한 스팬을 구하는 코드를 작성하라.
-// 스팬: 당일의 주가 보다 낮거나 같았던 연속적인 일 수.
-// 예) [5, 3, 2, 4, 7, 1]    =>   [1, 1, 1, 3, 5, 1]
-// 예) [2, 3, 4, 5, 6, 7]    =>   [1, 2, 3, 4, 5, 6]
+public class QueueStack {
 
-public static void main(String[] args) {
-        Span span = new Span();
-        System.out.println(Arrays.toString(span.solution(new int[]{5, 3, 2, 4, 7, 1})));
-        System.out.println(Arrays.toString(span.solution(new int[]{2, 3, 4, 5, 6, 7})));
+    Queue<Integer> q1 = new LinkedList<>();
+    Queue<Integer> q2 = new LinkedList<>();
+
+    public static void main(String[] args) {
+        QueueStack stack = new QueueStack();
+        stack.push(1);
+        stack.push(2);
+        stack.push(3);
+        System.out.println(stack.pop() == 3);
+        System.out.println(stack.pop() == 2);
+        System.out.println(stack.pop() == 1);
+
     }
+
 ```
 
 ### 풀이
