@@ -39,7 +39,10 @@
 -  [Stack3.span 찾기](/Algorithm/stack3.md)
 
 ##### 큐
--  [Queue1 큐 뒤집기](/Algorithm/queue1.md)
+-  [Queue1 큐 뒤집기](/Algorithm/queue1.md) 
+-  [Queue2 LRU 캐쉬 구현하기](/Algorithm/queue2.md)
+-  [Queue3 바이너리 트리 계층 중 최대값 구하기](/Algorithm/queue3.md)
+-  [Queue4 큐로 스택만들기](/Algorithm/queue4.md)
 
 
 ### Java 
