@@ -41,9 +41,7 @@ Tree의 상위호환
 2. Breadth- First - Search(BFS)
 
 ### DFS 와 BFS 검색 순서의 차이점
-
-![Binary%20Heap%20Graph%2044bf8dd7fde4471e83569fa5d8ed9ad5/Untitled.png](Binary%20Heap%20Graph%2044bf8dd7fde4471e83569fa5d8ed9ad5/Untitled.png)
-
+![Untitled](https://user-images.githubusercontent.com/33523029/121485257-fbec8e80-ca0a-11eb-8837-34214f6d5276.png)
 ### DFS
 
 - Inorder , preorder , postorder 순회방식이 이 DFS 방식이다.
