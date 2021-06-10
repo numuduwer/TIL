@@ -1,11 +1,10 @@
+
 # 트리 용어
 
 ### 트리
 
 Linked List와 비슷하지만 노드 한개가 다른 여러 노드를 가리킨다.
-
-![%E1%84%90%E1%85%B3%E1%84%85%E1%85%B5%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8B%E1%85%A5%2088608e0625d4402f963965e3cfc9f7b7/Untitled.png](%E1%84%90%E1%85%B3%E1%84%85%E1%85%B5%20%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%8B%E1%85%A5%2088608e0625d4402f963965e3cfc9f7b7/Untitled.png)
-
+![Untitled](https://user-images.githubusercontent.com/33523029/121485097-d6f81b80-ca0a-11eb-82d2-ccd9b32860ae.png)
  
 
 ### 트리 용어
