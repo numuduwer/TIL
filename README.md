@@ -44,6 +44,11 @@
 -  [Queue3 바이너리 트리 계층 중 최대값 구하기](/Algorithm/queue3.md)
 -  [Queue4 큐로 스택만들기](/Algorithm/queue4.md)
 
+##### 트리
+-  [Tree1 트리란?](/Algorithm/tree1.md) 
+-  [Tree2 Heap & Graph LRU 캐쉬 구현하기](/Algorithm/tree2.md)
+
+
 
 ### Java 
 
