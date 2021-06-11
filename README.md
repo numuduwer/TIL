@@ -47,6 +47,7 @@
 ##### 트리
 -  [Tree1 트리란?](/Algorithm/tree1.md) 
 -  [Tree2 Heap & Graph LRU 캐쉬 구현하기](/Algorithm/tree2.md)
+-  [Tree3 후위탐색에서 값 구하기](/Algorithm/tree01.md)
 
 
 
