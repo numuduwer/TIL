@@ -24,8 +24,6 @@ public static void main(String[] args) {
 **방법1** 
 
 ```java
-// 시간 복잡도 O(n)
-// 공간 복잡도 O(n)
 private int solution(Node root) {
     if (root == null) {
         return 0;
