@@ -50,7 +50,8 @@
 -  [Tree3 후위탐색에서 값 구하기](/Algorithm/tree01.md)
 -  [Tree4 이진트리 높이 구하기](/Algorithm/tree02.md)
 
-
+##### Hash 
+-  [Hash1 완주하지 못한 마라톤 ](/Algorithm/1.md) 
 
 ### Java 
 
