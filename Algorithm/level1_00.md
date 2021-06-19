@@ -1,9 +1,11 @@
 # 1.이중배열 사용하기
 
+![Array1](https://user-images.githubusercontent.com/33523029/122646229-159f7b80-d159-11eb-9b68-cd7389c8d0d6.PNG)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e079448a-a13f-4555-b192-d56b24475016/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e079448a-a13f-4555-b192-d56b24475016/Untitled.png)
+
 
 ### 알게된 점
+
 
 1. 이중 배열 사용법
 2. 배열자르기 `Arrays,copyOfRange(arr, start,end)`
