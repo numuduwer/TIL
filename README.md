@@ -24,8 +24,8 @@
 
 -  [4. array 와 List 컬렉션 (Java)](https://github.com/numuduwer/TIL/tree/main/Algorithm/Array.md)
 ##### Level 01 
--  [1.이중배열 사용](/Algorithm/level_00.md)
--  [2.정수타입변환 & 내림차순](/Algorithm/level_01.md)
+-  [1.이중배열 사용](/Algorithm/level1_00.md)
+-  [2.정수타입변환 & 내림차순](/Algorithm/level1_01.md)
 
 
 ##### 배열 
