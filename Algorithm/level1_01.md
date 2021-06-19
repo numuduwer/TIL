@@ -1,6 +1,7 @@
 # 2. Long타입  내림차순
 
-![2%20Long%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%20%E1%84%82%E1%85%A2%E1%84%85%E1%85%B5%E1%86%B7%E1%84%8E%E1%85%A1%E1%84%89%E1%85%AE%E1%86%AB%20599ea7621d314cdb9030b4a8aee30c0f/Untitled.png](2%20Long%E1%84%90%E1%85%A1%E1%84%8B%E1%85%B5%E1%86%B8%20%E1%84%82%E1%85%A2%E1%84%85%E1%85%B5%E1%86%B7%E1%84%8E%E1%85%A1%E1%84%89%E1%85%AE%E1%86%AB%20599ea7621d314cdb9030b4a8aee30c0f/Untitled.png)
+![Long_타입_내림차순](https://user-images.githubusercontent.com/33523029/122646258-32d44a00-d159-11eb-9dbf-90809fa46d1c.PNG)
+
 
 ### 알게된 점
 
