@@ -1,46 +1,39 @@
-# 2. Long타입  내림차순
+# 1.이중배열 사용하기
 
-![Long_타입_내림차순](https://user-images.githubusercontent.com/33523029/122646258-32d44a00-d159-11eb-9dbf-90809fa46d1c.PNG)
-
+![1%20%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%87%E1%85%A2%E1%84%8B%E1%85%A7%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%201e83e53d68214db68195200462fd399c/Untitled.png](1%20%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%AE%E1%86%BC%E1%84%87%E1%85%A2%E1%84%8B%E1%85%A7%E1%86%AF%20%E1%84%89%E1%85%A1%E1%84%8B%E1%85%AD%E1%86%BC%E1%84%92%E1%85%A1%E1%84%80%E1%85%B5%201e83e53d68214db68195200462fd399c/Untitled.png)
 
 ### 알게된 점
 
-1. 문자열로 변환  `ValueOf(n)  / toString()` 
-2. StringBuilder로 사용한 뒤집기  **Long.parseInt()**
-3. Long타입으로 변환.  **new StringBuilder(new String(arr)).reverse().toString();**
+1. 이중 배열 사용법
+2. 배열자르기 `Arrays,copyOfRange(arr, start,end)`
+3. 배열 출력하기 `Arrays.toString(arr)`
 
 ### 풀이
 
 ```java
 import java.util.Arrays;
 
-public class Level1_01 {
+public class Arr1 {
+
     public static void main(String[] args) {
-        Level1_01 level = new Level1_01();
 
-        System.out.println(level.solution(118372));
+        int[] array = new int[] {1,5,2,6,3,7,4};
+        int[][] commands = new int[][]{{2,5,3},{4,4,1},{1,7,3}};
+
+        Arr1 a = new Arr1();
+        System.out.println(Arrays.toString(a.solution(array, commands)));
+
     }
+    public int[] solution(int[] array, int[][] commands){
+        int[] answer = new int[commands.length];
 
-    private long solution(long n){
-        long answer = 0;
-
-        // 1. 문자열로 만든다.
-        String nStr = String.valueOf(n);
-
-        // 2. char타입 배열로 만들어 담는다.
-        char[] chars =  nStr.toCharArray();
-
-        // 3. 정렬
-        Arrays.sort(chars);
-
-        // 4. 뒤집기
-        nStr = new StringBuilder(new String(chars)).reverse().toString();
-
-        // 5. 타입 변환환
-        answer = Long.parseLong(nStr);
+        for(int i=0; i<commands.length; i++){
+            int[] temp = Arrays.copyOfRange(array, commands[i][0]-1, commands[i][1]);
+            Arrays.sort(temp);
+            answer[i] = temp[commands[i][2]-1];
+        }
 
         return answer;
     }
-
 }
 ```
