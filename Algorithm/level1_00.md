@@ -1,11 +1,8 @@
 # 1.이중배열 사용하기
 
-![Array1](https://user-images.githubusercontent.com/33523029/122646229-159f7b80-d159-11eb-9b68-cd7389c8d0d6.PNG)
-
-
+![image](https://user-images.githubusercontent.com/33523029/122936056-d2891680-d3ab-11eb-82b7-21ed51ccf341.png)
 
 ### 알게된 점
-
 
 1. 이중 배열 사용법
 2. 배열자르기 `Arrays,copyOfRange(arr, start,end)`
