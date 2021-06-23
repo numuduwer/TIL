@@ -5,7 +5,7 @@
 - 배열을 for 문에서 잘 사용하는지
 - StringBuilder API를 알고 있는지?
 
-### 문제 
+###  문제 
 #### 주어진 문자열을 거꾸로 뒤집은 문자열을 만드는 함수를 작성하라.
 
 예) hello => olleh /  happy new year => reay wen yppah
