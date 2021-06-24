@@ -1,8 +1,9 @@
 # 2. LRU 캐쉬
 
-![2%20LRU%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B1%205bdc475c88394db4be0d30e8a7d2c8a3/_2021-06-24__1.13.56.png](2%20LRU%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B1%205bdc475c88394db4be0d30e8a7d2c8a3/_2021-06-24__1.13.56.png)
 
-![2%20LRU%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B1%205bdc475c88394db4be0d30e8a7d2c8a3/_2021-06-24__1.57.32.png](2%20LRU%20%E1%84%8F%E1%85%A2%E1%84%89%E1%85%B1%205bdc475c88394db4be0d30e8a7d2c8a3/_2021-06-24__1.57.32.png)
+<img width="600"  src="https://user-images.githubusercontent.com/33523029/123284638-5d524880-d547-11eb-96ac-a3260c5649af.png">
+
+<img width="600"  src="https://user-images.githubusercontent.com/33523029/123284686-69d6a100-d547-11eb-815f-8b6c7e48ef43.png">
 
 ### 알게된 점
 
