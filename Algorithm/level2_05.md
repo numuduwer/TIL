@@ -7,8 +7,8 @@
 - **String.valueof(s.charAt(i));**
 - 3항 연산자  **return   x == y ? 1: 0;**
 
-### 풀이1
-
+### 풀이
+ 
 ```java
 import java.util.Stack;
 
